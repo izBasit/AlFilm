@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <dimen name="activity_horizontal_margin">16dp</dimen>
+  <dimen name="activity_vertical_margin">16dp</dimen>
+
+  <dimen name="height96dp">96dp</dimen>
+  <dimen name="height128dp">128dp</dimen>
+  <dimen name="map_height">200dp</dimen>
+  <dimen name="height220dp">220dp</dimen>
+  <dimen name="height90dp">90dp</dimen>
+  <dimen name="height100dp">100dp</dimen>
+  <dimen name="height32dp">32dp</dimen>
+  <dimen name="height64dp">64dp</dimen>
+  <dimen name="height120dp">120dp</dimen>
+  <dimen name="map_height_320dp">320dp</dimen>
+  <dimen name="height_108dp">108dp</dimen>
+
+  <dimen name="lv_item_height">56dp</dimen>
+  <dimen name="lv_item_height2x">72dp</dimen>
+  <dimen name="lv_text_padding_btm">20dp</dimen>
+
+  <dimen name="margin">4dp</dimen>
+  <dimen name="margin2x">8dp</dimen>
+  <dimen name="margin3x">12dp</dimen>
+
+  <dimen name="font_medium">16sp</dimen>
+  <dimen name="font_small">12sp</dimen>
+  <dimen name="font_xsmall">10sp</dimen>
+  <dimen name="font_14sp">14sp</dimen>
+  <dimen name="font_24">24sp</dimen>
+  <dimen name="movie_list_icon">64dp</dimen>
+  <dimen name="font_20">20sp</dimen>
+
+  <dimen name="height_item_32">32dp</dimen>
+  <dimen name="height_item_48">48dp</dimen>
+  <dimen name="vertical_separator_height">1dp</dimen>
+  <dimen name="bullet_size_small">5dp</dimen>
+  <dimen name="appbar_padding_top">8dp</dimen>
+  <dimen name="tile_height">40dp</dimen>
+
+
+</resources>

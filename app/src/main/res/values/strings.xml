@@ -1,0 +1,10 @@
+<resources>
+  <string name="app_name">AlFilm</string>
+  <string name="no_movies">No movies found</string>
+  <string name="cd">Content descriptor of image</string>
+
+  <string name="api_key">4d92cb245b3b58a0e0cb7e2e3f2b6e44</string>
+  <string name="movie_list">Movies</string>
+  <string name="loading_movies">Loading movies...</string>
+  <string name="movie_info">Movie info</string>
+</resources>
