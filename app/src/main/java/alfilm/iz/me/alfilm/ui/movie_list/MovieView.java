@@ -8,4 +8,6 @@ import java.util.List;
 public interface MovieView extends MvpView {
 
   void loadMovies(List<Result> movies, MovieListAdapter.MovieCallback callback);
+
+  void updateMovies();
 }

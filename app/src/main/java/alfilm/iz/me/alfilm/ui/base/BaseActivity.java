@@ -15,6 +15,7 @@ import android.view.MenuItem;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 import hugo.weaving.DebugLog;
+import timber.log.Timber;
 
 public abstract class BaseActivity extends AppCompatActivity {
 
@@ -28,10 +29,9 @@ public abstract class BaseActivity extends AppCompatActivity {
     super.setContentView(layoutResID);
     unbinder = ButterKnife.bind(this);
 
+    Timber.d("In base");
     actionBar = getSupportActionBar();
     if (actionBar != null) {
-      actionBar.setDisplayShowHomeEnabled(true);
-      actionBar.setDisplayHomeAsUpEnabled(true);
       actionBar.setTitle(getScreenName());
     }
   }
@@ -46,16 +46,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     }
   }
 
-  @Override public boolean onOptionsItemSelected(MenuItem item) {
-    switch (item.getItemId()) {
-      case android.R.id.home:
-        onBackPressed();
-        break;
-      default:
-        break;
-    }
-    return super.onOptionsItemSelected(item);
-  }
+
 
   @Override public void onBackPressed() {
     super.onBackPressed();
